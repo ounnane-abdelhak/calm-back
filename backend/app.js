@@ -24,7 +24,7 @@ app.use(helmet());
 // the added one
 app.use(
   cors({
-    origin: "https://shiny-pika-ecb38b.netlify.app/", // Change to your frontend's domain
+    origin: "https://calm-15.vercel.app/", // Change to your frontend's domain
     credentials: true, // Allow cookies to be sent
   })
 );
